@@ -150,6 +150,25 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="3b513d11-c4b0-4517-93ed-8df67df01d3e">
+    <name>ББ_КонтактноеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контактное лицо (ББ)</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ББ_КонтактныеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>Document.ОплатаПоставщику.Attribute.Контрагент</field>
+    </choiceParameterLinks>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="89d2cf90-1b05-4f76-92ce-211dfad5c12d">
     <name>ФормаДокумента</name>
     <synonym>
